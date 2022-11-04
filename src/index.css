@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    border-radius: .375rem;
+    appearance: none;
+    outline: none;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid rgb(192, 192, 192);
+    color: black;
+    background-color: #fff;
+    box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.07);
+    -webkit-transition: .18s ease-out;
+    -moz-transition: .18s ease-out;
+    -o-transition: .18s ease-out;
+    transition: .18s ease-out;
+}
+
+input:hover {
+    box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.02);
+}
+
+input:focus {
+    color: #4b515d;
+    border-color: rgba(138, 133, 228, 1) !important;
+    box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.2);
+}

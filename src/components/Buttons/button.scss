@@ -1,0 +1,51 @@
+.button {
+  padding: 10px;
+  border-radius: 4px;
+  width: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: #c5c5c5; 
+    color: #fff;
+  }
+
+  &.white{
+    color: #FFF;
+  }
+
+  &.purple {
+    color: rebeccapurple;
+  }
+
+  &.bgWhite{
+    background-color: #FFF;
+  }
+
+  &.bgGray{
+    background-color: rgb(164, 164, 164);
+  }
+
+  &.bgRed{
+    background-color: rgb(202, 67, 67);
+  }
+
+  &.bgGreen{
+    background-color: rgb(12, 122, 63);
+  }
+
+
+  &.bgPrimary{
+    background-color: #938eef;
+  }
+
+}
